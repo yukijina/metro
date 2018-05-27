@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+  line-height: 1;
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    padding: .6em 0;
+    margin: 0 15px;
+  }
+
+/*======
+COMMON PROPERTY
+darkbrown #352D2F
+red #F33E42
+font-family: 'Titillium Web', sans-serif;
+ ====*/
+
+/*===================================
+[1] NAVIGATION
+[2] HEADER / Introduction
+[3] Section / EXPLORE MORE
+[4] PROJECT
+[5] SITE INFO
+[6] SOCIA MEDIA
+[7] Contact
+[8] FOOTER
+===================================== */
+
+
+ /*========[1] Navigation ============ */
+nav {
+  background-color: #352D2F;
+  min-height: 50px;
+  width: 100%;
+  position: fixed;
+  font-family: 'Titillium Web', sans-serif;
+  top: 0;
+  z-index: 2;
+}
+
+ .logo {
+   display: inline-block;
+   background-color: #F33E42;
+   color: #fff;
+   text-transform: uppercase;
+   margin-left: 10%;
+   padding: 9px 10px 10px;;
+ }
+
+ a.logo span:first-child {
+   left: 3px;
+   position: relative;
+ }
+
+.sitenav {
+  display: inline-block;
+  float: right;
+  margin-right: 10%;
+ }
+
+ .sitenav li {
+   display: inline-block;
+   list-style: none;
+   margin-right: -4px;
+   padding-top: 15px;
+   padding-bottom: 18px;
+}
+
+.sitenav li:first-child {
+  border-bottom: 2px solid #fff;
+}
+
+.sitenav a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.sitenav a {
+   text-decoration: none;
+   color: #fff;
+   padding: 16px 20px;
+ }
+
+ /*===========[2] HEADER ===========*/
+ #intro {
+   background-color: #352D2F;
+   text-align: center;
+   min-height: 600px;
+   color: #fff;
+ }
+
+ #intro h1 {
+   text-transform: uppercase;
+   font-size: 80px;
+   font-weight: 400;
+   padding: 15% 0 5%;
+   line-height: 75px;
+   letter-spacing: 10px;
+   width: 60%;
+   margin: 0 auto;
+ }
+
+ .btn-watch {
+   display: inline-block;
+   border: 1px solid #fff;
+   background-color: transparent;
+   color: #fff;
+   font-size: 11.5px;
+   padding: 10px 15px;
+   font-weight: 300;
+   font-family: sans-serif;
+ }
+
+ #intro a {
+   text-decoration: none;
+   color: #fff;
+ }
+
+.fa-angle-double-down {
+  display: block;
+  font-size: 150%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/*=========[3] SECTION / EXPLORER MORE ====== */
+#explore {
+  text-align: center;
+  margin: 0 auto;
+  width: 60%;
+  padding: 3% 0;
+}
+
+#explore h1 {
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 5px;
+  padding: 2% 0;
+  margin: 0 15px;
+}
+
+.btn-sec {
+  background-color: #F33E42;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/*========== [4] PROJECT ========= */
+#project {
+  height: 600px;
+  color: #fff;
+}
+
+.main-feature {
+  background-color: #F33E42;
+  float: left;
+  width: 50%;
+  height: 550px;
+  /* padding: 200px 290px 110px 55px; */
+}
+
+.main-feature div {
+  font-size: 14px;
+  margin: 50% 10% 3%;
+}
+
+.main-feature .title {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 10%;
+}
+
+.main-feature p,
+.side-feature p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 10%;
+  width: 45%;
+}
+
+.side-feature {
+  background-color: #352D2F;
+  float: right;
+  height: 275px;
+  width: 50%;
+}
+
+.side-feature .title {
+  font-family: 'Teko', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 20% 10% 0;
+}
+
+.featured-bottom {
+  background-color: #30282A;
+  text-align: center;
+  height: 50px;
+  clear: both;
+  padding-top: 10px;
+}
+
+.featured-bottom a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 2px solid #fff;
+  font-size: 110%;
+  text-transform: uppercase;
+  padding-bottom: 8px
+}
+
+/*========= [5] SITE INFO ============ */
+#info {
+  background-color: #fafafa;
+  padding: 3% 0;
+}
+
+#info div {
+  display: inline-block;
+  width: 35%;
+  margin-left: 7%
+}
+
+#info div:first-child {
+  margin-left: 10%;
+}
+
+#info div:nth-child(1) {
+  vertical-align: top;
+}
+
+
+#info i {
+  color: #F33E42;
+  font-size: 200%;
+}
+
+#info h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+#info p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+}
+
+/*========[6] SOCIAL MEDIA=======  */
+#social {
+  background-color: #fafafa;
+  padding: 3% 0;
+}
+
+#social > div {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#social h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+#social h3 {
+  margin: 0;
+}
+
+#social p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 14px;
+  margin:  0 0 1%;
+}
+
+#social-icons > a {
+  color: #fff;
+  background-color: #30282A;
+  text-decoration: none;
+  display: inline-block;
+  padding: 40px 74px;
+  text-align: center;
+}
+
+#social-icons > a:nth-child(n+2) {
+  margin-left: 2%;
+}
+
+#social-icons i {
+  color: #fff;
+}
+
+
+/*======= [7] CONTACT ========= */
+#contact {
+  background-color: #352D2F;
+  padding: 150px
+}
+
+#contact div {
+  background-color: #F33E42;
+  color: #fff;
+  margin: 0 auto;
+  width: 35%;
+  text-align: center;
+  padding: 45px 25px;
+  text-transform: uppercase;
+}
+
+#contact i {
+  margin: 1% 0;
+}
+
+#contact address {
+  font-size: 14px;
+}
+
+#contact span {
+  display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  letter-spacing: 1px;
+  margin: 2% 0 1%;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*===========[8]Footer ============ */
+#footer {
+  margin: 0 auto;
+  width: 65%;
+  padding: 0 0 3%;
+}
+
+.col-25 {
+  float: left;
+  margin: 3%;
+  width: 20%;
+}
+
+#footer h3 {
+  margin-left: 0;
+}
+
+#footer > div > hr {
+  border: 1.5px solid #000;
+}
+
+#footer ul {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+#footer li {
+  list-style: none;
+  padding: 1% 0;
+  line-height: 1em;
+}
+
+#footer a {
+  text-decoration: none;
+  color: #000;
+}
+
+.col-50 {
+  float: left;
+  margin: 3% 0;
+  width: 45%;
+}
+
+.col-50 > ul {
+  float: left;
+  width: 50%;
+}
+
+#footer > hr {
+  border: 1px solid #000;
+  clear: both;
+  margin-top: 25px;
+}
+
+#footer div:last-child {
+  clear: both;
+}
+
+#footer span {
+  font-size: 12px;
+}
+
+#footer div:last-child ul {
+  float: right;
+}
+
+#footer ul {
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+#footer div:last-child li {
+  display: inline-block;
+}
+
+#footer li {
+  padding: 1% 0;
+}
